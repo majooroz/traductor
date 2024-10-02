@@ -15,11 +15,11 @@ from gtts import gTTS
 from googletrans import Translator
 
 
-st.title("Detector de Franceses.")
-st.subheader("Vamos a descubrir si eres parisino.")
+st.title("Detector de Visuales.")
+st.subheader("Vamos a descubrir si eres un VJ.")
 
 
-image = Image.open('napoleon.jpg')
+image = Image.open('Afterlife_LATAM.jpg')
 
 st.image(image,width=300)
 with st.sidebar:
